@@ -19,38 +19,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I developed a deep passion for coding, and through my journey, I've gained valuable insights.
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in languages such as
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> React JS, Java, and Node JS. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My focus revolves around crafting innovative &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies and Solutions </b> and
+                exploring realms associated with{" "}
                 <b className="purple">
-                  Blockchain.
+                  Artificial Intelligence and Machine Learning.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever feasible, I channel my enthusiasm into building applications
+              with <b className="purple">AI</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Cutting-edge Programming Languages and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Typescript</b>
               </i>
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
