@@ -6,6 +6,8 @@ import busbooker from "../../Assets/Projects/busbooker.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import geekguru from "../../Assets/Projects/geekguru.png";
 import grubhub from "../../Assets/Projects/grubhub.png";
+import iosd from "../../Assets/Projects/iosd.png";
+import projectlist from "../../Assets/Projects/projectlist.PNG";
 
 function Projects() {
   return (
@@ -60,6 +62,28 @@ function Projects() {
               description="GrubHub a MERN stack food app offers a user-friendly React frontend for seamless browsing and ordering Powered by Express Js and MongoDB it ensures secure transactions efficient order management and a delightful food ordering experience"
               ghLink="https://github.com/Paramhans-Singh/GrubHub"
               demoLink="https://grub-hubs.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iosd}
+              isBlog={false}
+              title="IOSD Website"
+              description="The IOSD Website, built on the MERN stack, serves as a centralized hub for a college society, providing students with easy access to event details, announcements, and educational resources. Its intuitive interface fosters community engagement and collaboration within the Institute. "
+              ghLink="https://github.com/Paramhans-Singh/IOSD"
+              demoLink="https://iosd.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={projectlist}
+              isBlog={false}
+              title="My Tech Project-List"
+              description=" Tech Project List - website showcases a comprehensive catalog of all my projects developed using various technology stacks. Built with React and styled with CSS, the website presents a clean and organized list of each project, highlighting the technologies employed in their development. This platform allows visitors to gain insights into the diverse range of technologies and frameworks I have utilized across different projects."
+              ghLink="https://github.com/Paramhans-Singh/My-Tech-Projects"
+              demoLink="https://my-tech-projects.vercel.app/"
             />
           </Col>
           </Row>
