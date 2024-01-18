@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo1.png";
+import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -12,9 +12,14 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillBook,
+  AiFillSafetyCertificate,
+  AiFillDashboard,
+  AiFillCustomerService,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -72,6 +77,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillCustomerService
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -79,6 +97,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillSafetyCertificate
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certificates
               </Nav.Link>
             </Nav.Item>
 
