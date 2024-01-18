@@ -24,7 +24,7 @@ function Certificate() {
               imgPath={dsa}
               isBlog={false}
               title="Data Structures in Java"
-              comapny="Coding Ninja"
+              company="Coding Ninja"
               date="Oct 22"
               cerLink="https://drive.google.com/file/d/1hruCELHPZQ-9WKi6hupXhjuyHy8Zaagb/view?usp=sharing"
             />
@@ -35,7 +35,7 @@ function Certificate() {
               imgPath={frontend}
               isBlog={false}
               title="FrontEnd | FullStack Web Development"
-              comapny="Coding Ninja"
+              company="Coding Ninja"
               date="Dec 22"
               cerLink="https://drive.google.com/file/d/1mwIhKuLuC8YNMvz2VyOJv4y2sSZbITLQ/view?usp=sharing"
             />
@@ -46,7 +46,7 @@ function Certificate() {
               imgPath={backend}
               isBlog={false}
               title="BackEnd | FullStack Web Development"
-              comapny="Coding Ninjas"
+              company="Coding Ninjas"
               date="Mar 23"
               cerLink="https://drive.google.com/file/d/1LUQNVBSAwsWmERA-lEISK25Wpe3vIJIs/view?usp=sharing"
             />
@@ -57,7 +57,7 @@ function Certificate() {
               imgPath={java}
               isBlog={false}
               title="Introduction to JAVA"
-              comapny="Coding Ninjas"
+              company="Coding Ninjas"
               date="July 22"
               cerLink="https://drive.google.com/file/d/10RZfFCkUErhUTMOibfeDSEeWagSMqVv_/view?usp=sharing"
             />
