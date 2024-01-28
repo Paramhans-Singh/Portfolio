@@ -1,4 +1,4 @@
-# Portfolio 🌐
+# Portfolio 💼
 
 Welcome to my portfolio, a dynamic representation of my skills and journey in the realm of web development. This project is built using React JS, a powerful JavaScript library for creating user interfaces, providing a seamless and responsive experience. The sleek design is achieved through the integration of various CSS libraries, ensuring an aesthetically pleasing presentation.
 
